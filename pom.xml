@@ -22,7 +22,7 @@
 	  <repository>
 	    <id>release</id>
 	    <name>releases</name>
-	    <url>http://localhost:8081/artifactory/libs-release-local</url>
+	    <url>http://localhost:8082/artifactory/libs-release-local</url>
 	  </repository>
 	  <snapshotRepository>
 	    <id>snapshot</id>
@@ -32,9 +32,9 @@
 	</distributionManagement>
 	
 	<scm>
-	  <connection>scm:git:https://github.com/hualdajani/DevOps.git</connection>
-	  <developerConnection>scm:git:https://github.com/hualdajani/DevOps.git</developerConnection>
-	  <url>https://github.com/hualdajani/DevOps.git</url>
+	  <connection>scm:git:git@github.com:hualdajani/DevOps.git</connection>
+	  <developerConnection>scm:git:git@github.com:hualdajani/DevOps.git</developerConnection>
+	  <url>git@github.com:hualdajani/DevOps.git</url>
 	  <tag>HEAD</tag>
 	</scm>
 	
